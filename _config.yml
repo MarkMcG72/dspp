@@ -5,3 +5,4 @@ show_downloads: true
 theme: jekyll-theme-minimal
 include:
   - assets/css/styles.css
+<img src="assets/image.png" alt="Description of image" class="rounded-image">
