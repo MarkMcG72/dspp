@@ -1,4 +1,4 @@
-<img src="path/to/your/image.jpg" alt="Description of image" class="rounded-image">
+<img src="assets/image.png" alt="Description of image" class="rounded-image">
 
 # About me
 
