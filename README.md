@@ -1,4 +1,4 @@
-<img src="assets/image.png" alt="Description of image" style="border-radius: 50%; width: 300px; height: 300px;">
+<img src="assets/image.png" alt="Description of image" style="border-radius: 50%; width: 400px; height: 300px;">
 
 # About me
 
