@@ -605,7 +605,7 @@
 			&:before {
 				font-family: 'Font Awesome 5 Brands';
 				font-weight: 900 !important;
-				font-size: 500px;
+				font-size: 5em;
 			}
 		}
 
@@ -845,6 +845,35 @@
 			display: inline-block;
 			padding: 2.5em;
 			text-align: center;
+
+			.icon {
+				@include vendor('transform', 'rotate(45deg)');
+				border-radius: _size(border-radius);
+				border: solid 1px _palette(border);
+				display: inline-block;
+				height: 8em;
+				line-height: 8em;
+				margin: 0;
+				text-align: center;
+				width: 8em;
+
+				&:before {
+					@include vendor('transform', 'rotate(-45deg)');
+					display: inline-block;
+					line-height: inherit;
+				}
+			}
+		}
+	}
+	ul.major-icons-brand {
+		list-style: none;
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			padding: 2.5em;
+			text-align: center;
+			font-size: 50px;
 
 			.icon {
 				@include vendor('transform', 'rotate(45deg)');
