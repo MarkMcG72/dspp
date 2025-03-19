@@ -1112,7 +1112,8 @@
 		}
 
 		ul {
-			&.major-icons {
+			&.major-icons,
+			&.major-icons-brand {
 				li {
 					.icon {
 						border-color: _palette(dark, border);
@@ -1310,7 +1311,8 @@
 		/* List */
 
 			ul {
-				&.major-icons {
+				&.major-icons,
+				&.major-icons-brand {
 					li {
 						padding: 2em;
 
@@ -1360,7 +1362,8 @@
 		/* List */
 
 			ul {
-				&.major-icons {
+				&.major-icons,
+				&.major-icons-brand {
 					li {
 						padding: 2em;
 
@@ -1434,7 +1437,8 @@
 		/* List */
 
 			ul {
-				&.major-icons {
+				&.major-icons,
+				&.major-icons-brand {
 					li {
 						padding: 1.5em;
 
